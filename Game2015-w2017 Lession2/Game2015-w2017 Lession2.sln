@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game2015-w2017 Lession2.Plugins", "Game2015-w2017 Lession2.Plugins.csproj", "{94D41E97-FEBA-E027-B99C-7101D1405DAE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game2015-w2017 Lession2", "Game2015-w2017 Lession2.csproj", "{A5562A95-F8BB-9964-55A0-07C6E4DBA67B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game2015-w2017 Lession2.Plugins", "Game2015-w2017 Lession2.Plugins.csproj", "{94D41E97-FEBA-E027-B99C-7101D1405DAE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game2015-w2017 Lession2.Editor.Plugins", "Game2015-w2017 Lession2.Editor.Plugins.csproj", "{091EB1E3-D4CA-D74C-8F7C-0D30E68F1375}"
 EndProject
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A5562A95-F8BB-9964-55A0-07C6E4DBA67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A5562A95-F8BB-9964-55A0-07C6E4DBA67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5562A95-F8BB-9964-55A0-07C6E4DBA67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5562A95-F8BB-9964-55A0-07C6E4DBA67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D41E97-FEBA-E027-B99C-7101D1405DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{091EB1E3-D4CA-D74C-8F7C-0D30E68F1375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{091EB1E3-D4CA-D74C-8F7C-0D30E68F1375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{091EB1E3-D4CA-D74C-8F7C-0D30E68F1375}.Release|Any CPU.ActiveCfg = Release|Any CPU
