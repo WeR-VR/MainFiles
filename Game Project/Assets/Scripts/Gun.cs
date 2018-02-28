@@ -81,7 +81,7 @@ public class Gun : MonoBehaviour {
     }
     private void Burstshot()
     {
-        if (bullets > 5)
+        if (bullets >= 5)
         {
             Instantiate(BulletPrefab2, bulletSpawn.position, bulletSpawn.rotation);
             Instantiate(BulletPrefab2, SpreadSpawn.position, SpreadSpawn.rotation);
