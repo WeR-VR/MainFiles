@@ -44,7 +44,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 87
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 90
+  controlID: 88
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 88
+  controlID: 86
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 89
+  controlID: 87
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -459,18 +459,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scene
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scene
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\College Stuff\Unity\WeR-VR\MainFiles\Game Project
   m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 47}
-    m_SelectedIDs: 6c340000
-    m_LastClickedID: 13420
+    scrollPos: {x: 0, y: 48}
+    m_SelectedIDs: 34350000
+    m_LastClickedID: 13620
     m_ExpandedIDs: 000000007a2900005c2a0000d62a0000fe2a0000082d0000ca2f0000ba320000a23a0000d23b0000f83b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -617,23 +617,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 622f0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 1878ffff4c7fffff2e80ffffe8aafffff0aaffff7ab5ffff42bfffff2cc0ffff30c2ffff44c2ffff9efbffff00000000
+    m_ExpandedIDs: 38d2faff26d3faff26d5faff34d5faffc2e0faffaae1faffaae3faffb8e3faffc057fdff64a5fdff1071feffca05ffff72aaffffb4b0fffff6b1ffff9efbffff00000000d6610000e2620000ca640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Canvas
+      m_OriginalName: Canvas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 25046
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -670,14 +670,14 @@ MonoBehaviour:
     height: 604
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 1281.365498719803
+  lastFramingTime: 1518.8334525761786
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 48.491844, y: 2.7760253, z: 45.12}
+    m_Target: {x: 52.48062, y: 2.074489, z: 45.6637}
     speed: 2
-    m_Value: {x: 48.491844, y: 2.7760253, z: 45.12}
+    m_Value: {x: 52.48062, y: 2.074489, z: 45.6637}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -701,13 +701,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0782776, y: 0.0065647163, z: -0.0005185658, w: 0.99690986}
+    m_Target: {x: -0.072290555, y: 0.01288088, z: -0.0009305954, w: -0.9973}
     speed: 2
-    m_Value: {x: -0.0782776, y: -0.006564716, z: 0.0005185658, w: -0.99690986}
+    m_Value: {x: -0.072290555, y: 0.01288088, z: -0.0009305954, w: -0.9973}
   m_Size:
-    m_Target: 53.481964
+    m_Target: 3.1389058
     speed: 2
-    m_Value: 53.481964
+    m_Value: 3.1389058
   m_Ortho:
     m_Target: 0
     speed: 2

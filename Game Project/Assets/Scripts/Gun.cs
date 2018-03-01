@@ -13,32 +13,40 @@ public class Gun : MonoBehaviour {
 	[SerializeField] Transform SpreadSpawn4;
 	[SerializeField] Transform bulletSpawn;
 
-    public float damage = 15f;
-	public float burstdamage =30f;
-    public float range = 100f;
-    private float bullets = 06f;
-    public Text BulletText;
-    public Camera fpscam;
+    public  float   damage = 15f;
+	public  float   burstdamage =30f;
+    public  float   range = 100f;
+    private float   bullets = 06f;
+    public  Text    BulletText;
+    public  float   Health = 100f;
+    public  Camera  fpscam;
+    public  Image   HealthBar;
 
 
 
-	// Update is called once per frame
-	void Update () {
-            bullets = Mathf.Clamp(bullets, 0f, Mathf.Infinity);
-            BulletText.text = string.Format("{0:00}", bullets);
+    // Update is called once per frame
+    void Update()
+    {
+        bullets = Mathf.Clamp(bullets, 0f, Mathf.Infinity);
+        BulletText.text = string.Format("{0:00}", bullets);
 
-            if (Input.GetButtonDown("Fire1"))
-            {
-                Shoot();
-            }
-            if (Input.GetButtonDown("Fire2"))
-            {
-                Burstshot();
-            }
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                Reload();
-            }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
+        }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Burstshot();
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Reload();
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Health--;
+            HealthBar.fillAmount = Health/100f;
+        }
         if (bullets == 0)
         {
             BulletText.color = Color.red;
