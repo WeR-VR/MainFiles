@@ -417,7 +417,6 @@
     <Compile Include="Assets\SimpleRotate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Fonts\fms_metadata.xml" />
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
