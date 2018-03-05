@@ -1,11 +1,12 @@
 WindowsStandalone
 SceneListBegin?
-Assets/Scene/Main_Menu.unity
-Assets/Scene/MainLevel.unity
+Assets/MyAssets/Scene/TitleScreen.unity
+Assets/MyAssets/Scene/MainLevel.unity
 SceneListEnd?
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
 047843e8fc8efc789ac0ebf61a6343c3 Assembly-CSharp.dll:GoogleVR.HelloVR.HeadsetDemoManager
 7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExtinguishableParticleSystem
+d1d3562bf07a623543c1125268a414b4 Assembly-CSharp.dll:.Gun_raycast
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -97,6 +98,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Ball.BallUserControl
 96fa541852811a74a7726ae73c544810 Assembly-CSharp.dll:.GvrArmModel
 03bbed44bf0809da9eb453e702673301 Assembly-CSharp.dll:.GvrAudioRoom
+7ed31104036ce5c283fb68b0f6586344 Assembly-CSharp.dll:.TitleScreen
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 7145f8261763e133c64c6e3d29fe65ca Assembly-CSharp.dll:GoogleVR.Demos.DemoInputManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrEditorEmulator
@@ -231,6 +233,7 @@ b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.ScrubberEvents
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.GerstnerDisplace
 f4b175ffc1eeca85d2783436b4c764a7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.Explosive
+48e2ba8211e4b32f345c4d9dbda48a38 Assembly-CSharp.dll:.CameraDefault
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.VideoControlsManager
 81dc5af3744a08050494c77f5012051e Assembly-CSharp.dll:.GvrPointerGraphicRaycaster
 6746ad828d32ad6e5c07a63950fd4be6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterTile
@@ -248,5 +251,7 @@ c155a394adca7150e655710872cdbd4f Assembly-CSharp.dll:.SimpleRotate
 7d05c1a36ca8db05546065b852216990 Assembly-CSharp.dll:.GvrControllerInput
 e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRManager
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
+4ff084a898ba094b9e40d6b3f3c510e1 Assembly-CSharp.dll:.TitleFire
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
+85fdae060bcd2db12988e475da8a4011 Assembly-CSharp.dll:.Objective
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch

@@ -155,12 +155,17 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\MobilityArts\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Gun.cs" />
-     <Compile Include="Assets\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\Platform.cs" />
-     <Compile Include="Assets\Scripts\Projectile.cs" />
-     <Compile Include="Assets\SimpleRotate.cs" />
+     <Compile Include="Assets\Mountain Terrain\Misc\CameraDefault.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Gun.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Gun_raycast.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Laser.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Platform.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Projectile.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\SimpleRotate.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\TitleFire.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\TitleScreen.cs" />
      <None Include="Assets\Space Bomber\Space Bomber info.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
@@ -178,7 +183,6 @@
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\Stylized Nature Environment\ReadMe.txt" />
-     <None Include="Assets\Fonts\fms_metadata.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -245,11 +249,14 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.WSA.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>I:/Semester 4/VR Unity/Future of the West-V1.2/Game Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>I:/Semester 4/VR Unity/Future of the West-v1.7/MainFiles-master/Game Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Kiva Rothchild/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
