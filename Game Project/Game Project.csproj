@@ -414,11 +414,13 @@
     <Compile Include="Assets\MyAssets\Scripts\Laser.cs" />
     <Compile Include="Assets\MyAssets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Objective.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\PathScript.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Platform.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Projectile.cs" />
     <Compile Include="Assets\MyAssets\Scripts\SimpleRotate.cs" />
     <Compile Include="Assets\MyAssets\Scripts\TitleFire.cs" />
     <Compile Include="Assets\MyAssets\Scripts\TitleScreen.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\VehicleFollowing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
