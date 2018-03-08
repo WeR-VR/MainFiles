@@ -1,14 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ShiftBox.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\BombardiersScript\EnemyScript.cs">
     <Files>
       <File FileName="Assets\MyAssets\Scripts\Projectile.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\Gun.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\TitleScreen.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\TitleFire.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\ShiftBox.cs" Line="6" Column="18" />
-      <File FileName="Assets\MyAssets\Scripts\Platform.cs" Line="11" Column="66" />
+      <File FileName="Assets\MyAssets\Scripts\Platform.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\BombardiersScript\EnemyScript.cs" Line="22" Column="3" />
+      <File FileName="Assets\MyAssets\Scripts\BombardiersScript\EBulletScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
