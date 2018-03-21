@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 4823387407581308}
   - component: {fileID: 33562372574114838}
   - component: {fileID: 23075281484483222}
+  - component: {fileID: 65783494830032958}
   m_Layer: 0
   m_Name: GunMain
   m_TagString: Untagged
@@ -204,6 +205,7 @@ GameObject:
   - component: {fileID: 223522881035987614}
   - component: {fileID: 114658659027086082}
   - component: {fileID: 114244178027235268}
+  - component: {fileID: 114510117739147042}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -405,6 +407,7 @@ GameObject:
   - component: {fileID: 114170658910797524}
   - component: {fileID: 54656303324029004}
   - component: {fileID: 82736184044879670}
+  - component: {fileID: 114787751725674942}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -735,7 +738,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 91
   orthographic: 0
   orthographic size: 5
@@ -974,6 +977,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65783494830032958
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274878488268994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.042147003, y: 0.2016033, z: 0.2759136}
+  m_Center: {x: 0, y: 1.4800463, z: 0.8495321}
 --- !u!81 &81463080853695626
 AudioListener:
   m_ObjectHideFlags: 1
@@ -1389,6 +1404,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 10
+--- !u!114 &114510117739147042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335934213580996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad077cf6cda42443a56c497382dc702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Object: {fileID: 1339924089059234}
 --- !u!114 &114574886936182054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1470,6 +1497,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114787751725674942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745082445223362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c9d8ee0bc2e264f92413dfbbfa8658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114895064174929362
 MonoBehaviour:
   m_ObjectHideFlags: 1

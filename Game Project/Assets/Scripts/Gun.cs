@@ -5,13 +5,13 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Gun : MonoBehaviour {
-	[SerializeField] GameObject BulletPrefab;
-	[SerializeField] GameObject BulletPrefab2;
-	[SerializeField] Transform SpreadSpawn;
-	[SerializeField] Transform SpreadSpawn2;
-	[SerializeField] Transform SpreadSpawn3;
-	[SerializeField] Transform SpreadSpawn4;
-	[SerializeField] Transform bulletSpawn;
+	public GameObject BulletPrefab;
+	public GameObject BulletPrefab2;
+	public Transform SpreadSpawn;
+    public Transform SpreadSpawn2;
+    public Transform SpreadSpawn3;
+    public Transform SpreadSpawn4;
+    public Transform bulletSpawn;
 
     public  float   damage = 15f;
 	public  float   burstdamage =30f;

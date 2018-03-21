@@ -301,17 +301,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Game Project.Plugins.csproj">
-      <Project>{CCF0EAD3-B449-CD00-C32F-93ACE1AF8C9D}</Project>
-      <Name>Game Project.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="Game Project.csproj">
       <Project>{F8E4CD21-826E-9EDF-0A18-14CAF9AA8AEA}</Project>
       <Name>Game Project</Name>
-    </ProjectReference>
-    <ProjectReference Include="Game Project.Editor.Plugins.csproj">
-      <Project>{F6B9ECFA-ACDB-9D1D-49AE-1405400EAC37}</Project>
-      <Name>Game Project.Editor.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -330,6 +322,7 @@
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+    <Compile Include="Assets\PrimaryAssets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
@@ -347,21 +340,21 @@
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
     <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
-    <None Include="Assets\Space Bomber\Space Bomber info.txt" />
-    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
-    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
-    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
-    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
-    <None Include="Assets\Stylized Nature Environment\ReadMe.txt" />
+    <None Include="Assets\Models\Model_Bomber\Space Bomber info.txt" />
+    <None Include="Assets\Models\Model_Environment\ReadMe.txt" />
+    <None Include="Assets\PrimaryAssets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\PrimaryAssets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\PrimaryAssets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\PrimaryAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\PrimaryAssets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\PrimaryAssets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\PrimaryAssets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\PrimaryAssets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\PrimaryAssets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\PrimaryAssets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\PrimaryAssets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\PrimaryAssets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\PrimaryAssets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
