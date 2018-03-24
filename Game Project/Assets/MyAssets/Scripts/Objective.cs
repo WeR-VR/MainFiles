@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Objective : MonoBehaviour {
 
     public GameObject Object;
+    public float Time = 3f;
 
     private void Start()
     {
@@ -26,7 +27,7 @@ public class Objective : MonoBehaviour {
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(Time);
         Debug.Log("Hide");
         Object.gameObject.SetActive(false);
     }

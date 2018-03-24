@@ -1,4 +1,4 @@
-WindowsStandalone
+Android
 SceneListBegin?
 Assets/MyAssets/Scene/TitleScreen.unity
 Assets/MyAssets/Scene/MainLevel.unity
@@ -258,5 +258,5 @@ e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRMan
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 4ff084a898ba094b9e40d6b3f3c510e1 Assembly-CSharp.dll:.TitleFire
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
-85fdae060bcd2db12988e475da8a4011 Assembly-CSharp.dll:.Objective
+eb5a769bd87b458fd9cf32a1bdbd7f48 Assembly-CSharp.dll:.Objective
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
