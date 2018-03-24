@@ -12,7 +12,7 @@ public class EnemyScript : MonoBehaviour {
 	public float walkingDistance = 10.0f;
 
 	public Transform thePlayer;
-	//public Transform Dodge;
+	public Transform Dodge;
 
 	public Rigidbody playerBody;
 	private Vector3 smoothVelocity = Vector3.zero;
